@@ -314,4 +314,277 @@ footer .credit a {
   .main-div {
     flex-wrap: wrap;
   }
+  /* .kufi {
+    background-color: aqua;
+  } */
+
+  .nav-branding {
+    /* background-color: #ffd700; */
+    margin-bottom: -5.1rem;
+  }
+
+  .hamburger {
+    display: block;
+    /* background-color: aqua; */
+    margin-bottom: -5.1rem;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 110px;
+    gap: 0;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+  }
+  .nav-item {
+    margin: 16px 0;
+  }
+
+  .nav-menu.active {
+    left: 0;
+  }
+
+  .navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* background-color: #ffd700; */
+    margin-top: 0;
+    margin-right: 0;
+  }
+
+  /* main-section tablet */
+
+  .main-section {
+    flex-wrap: wrap;
+
+    /* background-color: #ffd700; */
+
+    /* background-color: rgb(15, 69, 86); */
+    /* margin-top: 1.5rem; */
+    width: 100%;
+    height: 70%;
+  }
+
+  .main-section-img {
+    /* background-color: chartreuse; */
+    padding: 0 0 1rem;
+    margin-top: 0.7rem;
+    margin-bottom: -13rem;
+  }
+
+  .first-photo {
+    /* background-color: antiquewhite; */
+    /* display: block; */
+    /* margin-top: -7rem; */
+    /* margin-left: -1rem; */
+    /* align-items: center; */
+    /* padding: 0 -1rem; */
+    width: 100%;
+    height: 70%;
+    object-fit: contain;
+    rotate: none;
+  }
+
+  /* .main-section-text p {
+    width: 120%;
+    margin-top: -13rem;
+    padding-top: 1rem;
+    margin-right: 5%;
+    margin-left: 5%;
+    text-align: center;
+    padding-right: 0.3rem;
+    background-color: #ffd700;
+    padding: 0;
+  } */
+
+  /* .main-section-text h1 {
+    text-align: center;
+  } */
+
+  .main-section-text p {
+    font-weight: 400;
+    font-size: 1.2rem;
+  }
+
+  /* teaser tablet */
+
+  .teaser {
+    /* background-color: aquamarine; */
+    margin-top: 7rem;
+    padding-top: 1rem;
+  }
+
+  .row {
+    margin-top: 2rem;
+  }
+
+  .teaser p {
+    font-size: 1.2rem;
+  }
+
+  .perfume-card {
+    padding: 1rem 0;
+    margin-bottom: 2rem;
+  }
+
+  .perfume-card img {
+    margin-top: -1rem;
+  }
+
+  /* find us tablet */
+
+  .find-us {
+    margin-top: -3rem;
+    padding: 0 5%;
+  }
+
+  .find-us h2 {
+    padding-bottom: 0.5rem;
+  }
+
+  .find-us p {
+    text-align: justify;
+    padding: 0 1rem;
+  }
+
+  .row-maps {
+    flex-wrap: wrap;
+    /* background-color: aquamarine; */
+    /* margin-top: 1.5rem; */
+    padding-top: 0.5rem;
+  }
+
+  .map {
+    width: 100%;
+    padding-bottom: 1rem;
+  }
+
+  /* about tablet */
+
+  .about {
+    padding-top: 2rem;
+  }
+
+  .about h2 {
+    padding-bottom: 0.5rem;
+  }
+
+  .about-para {
+    font-weight: 400;
+  }
+
+  .footer {
+    margin-top: 1rem;
+  }
+}
+
+/* Phone */
+@media (max-width: 450px) {
+  html {
+    font-size: 100%;
+  }
+
+  /* .kufi {
+    background-color: aqua;
+  } */
+
+  .nav-branding {
+    /* background-color: #ffd700; */
+    margin-bottom: -5.1rem;
+  }
+
+  .hamburger {
+    display: block;
+    /* background-color: aqua; */
+    margin-bottom: -5.1rem;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 110px;
+    gap: 0;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+    padding-top: 1rem;
+  }
+  .nav-item {
+    margin: 16px 0;
+  }
+
+  .nav-menu.active {
+    left: 0;
+  }
+
+  .navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* background-color: #ffd700; */
+    margin-top: 0;
+    margin-right: 0;
+  }
+
+  .nav-branding {
+    /* background-color: aqua; */
+    margin-top: 2rem;
+  }
+
+  /* products */
+
+  .tagline {
+    /* background-color: #ffd700; */
+    margin-top: 2rem;
+    margin-bottom: -2rem;
+  }
+
+  /* about phone */
+
+  .about {
+    padding-top: 2rem;
+  }
+
+  .about h2 {
+    padding-bottom: 0.5rem;
+  }
+
+  .about-para {
+    font-weight: 400;
+  }
+
+  .footer {
+    margin-top: 1rem;
+  }
 }
