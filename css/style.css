@@ -584,7 +584,7 @@ footer .credit a {
   .main-section {
     flex-wrap: wrap;
 
-    /* background-color: #ffd700; */
+    background-color: #ffd700;
 
     /* background-color: rgb(15, 69, 86); */
     /* margin-top: 1.5rem; */
@@ -600,7 +600,7 @@ footer .credit a {
   }
 
   .first-photo {
-    /* background-color: antiquewhite; */
+    background-color: antiquewhite;
     /* display: block; */
     /* margin-top: -7rem; */
     /* margin-left: -1rem; */
@@ -610,6 +610,7 @@ footer .credit a {
     height: 70%;
     object-fit: contain;
     rotate: none;
+    padding-bottom: 1.5rem;
   }
 
   /* .main-section-text p {
@@ -623,9 +624,9 @@ footer .credit a {
     background-color: #ffd700;
     padding: 0;
   } */
-
-  /* .main-section-text h1 {
-    text-align: center;
+  /* 
+  .main-section-text h1 {
+    padd
   } */
 
   .main-section-text p {
