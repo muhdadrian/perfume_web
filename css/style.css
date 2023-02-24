@@ -584,7 +584,7 @@ footer .credit a {
   .main-section {
     flex-wrap: wrap;
 
-    background-color: #ffd700;
+    /* background-color: #ffd700; */
 
     /* background-color: rgb(15, 69, 86); */
     /* margin-top: 1.5rem; */
@@ -594,13 +594,13 @@ footer .credit a {
 
   .main-section-img {
     /* background-color: chartreuse; */
-    padding: 0 0 1rem;
-    margin-top: 0.7rem;
+    padding: 0 0 1.7rem;
+    margin-top: 1.3rem;
     margin-bottom: -13rem;
   }
 
   .first-photo {
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
     /* display: block; */
     /* margin-top: -7rem; */
     /* margin-left: -1rem; */
@@ -610,6 +610,7 @@ footer .credit a {
     height: 70%;
     object-fit: contain;
     rotate: none;
+    margin-top: 1rem;
     padding-bottom: 1.5rem;
   }
 
