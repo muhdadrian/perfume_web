@@ -450,12 +450,13 @@ footer .credit a {
 
   .teaser {
     /* background-color: aquamarine; */
-    margin-top: 7rem;
+    margin-top: 9rem;
     padding-top: 1rem;
   }
 
   .row {
     margin-top: 2rem;
+    /* background-color: #ffd700; */
   }
 
   .teaser p {
