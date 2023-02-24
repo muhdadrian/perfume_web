@@ -1,0 +1,317 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+:root {
+  --primary: #ffd700;
+  --bg: #000000;
+}
+
+html {
+  scroll-behavior: smooth;
+  padding: 0 1rem;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  /* height: 5000px; */
+}
+
+.kufi {
+  display: flex;
+  justify-content: center;
+  /* background-color: aqua; */
+  margin: 1rem 5% -2rem;
+  font-size: 1.5rem;
+  color: var(--bg);
+  /* position: fixed; */
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.navbar {
+  min-height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* text-align: center; */
+  padding: 0 24px;
+  margin: 3rem 5% 1rem;
+  /* position: fixed; */
+  top: 0;
+  left: 0;
+  right: 0;
+  /* z-index: 9999; */
+  /* border-bottom: 1px solid #513c28; */
+  /* background-color: blue; */
+}
+
+.nav-branding {
+  font-weight: 700;
+  font-size: 2.5rem;
+  cursor: pointer;
+  font-style: italic;
+  text-decoration: none;
+  color: var(--bg);
+}
+
+.nav-branding span {
+  color: #ffd700;
+}
+
+.navbar ul li {
+  display: inline-block;
+  margin: 0 1.5rem;
+  padding: 1rem 0;
+  position: relative;
+  list-style: none;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: rgb(114, 111, 111);
+  text-transform: uppercase;
+  font-weight: 500;
+  /* mix-blend-mode: difference; */
+}
+
+.navbar ul li::after {
+  content: "";
+  height: 2px;
+  width: 0;
+  background: #ffd700;
+  position: absolute;
+  left: 0;
+  bottom: 0.5rem;
+  transition: 0.5s;
+}
+
+.navbar ul li:hover::after {
+  width: 100%;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: var(--bg);
+}
+
+/* Footer */
+
+footer {
+  background-color: var(--primary);
+  text-align: center;
+  padding: 1rem 0.3rem;
+  margin-top: 3rem;
+}
+
+.socials img {
+  width: 2rem;
+  height: 2rem;
+  margin: 0 0.5rem;
+}
+/* footer .socials a {
+  color: #fff;
+  margin: 1rem;
+} */
+
+footer .links a:hover {
+  color: var(--bg);
+}
+
+footer .links {
+  margin: 1.4rem 0;
+}
+
+footer .links a {
+  color: rgb(114, 111, 111);
+  padding: 0.7rem 1rem;
+}
+
+footer .credit {
+  font-size: 0.8rem;
+}
+
+footer .credit a {
+  color: var(--bg);
+  font-weight: 700;
+}
+
+/* Products */
+
+.product-section {
+  text-align: center;
+  /* padding: 1rem 7% 1.4rem; */
+  /* background-color: burlywood; */
+  margin-top: -5rem;
+}
+
+.product-section h2 span {
+  color: var(--primary);
+}
+
+.product-row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-top: -1rem;
+}
+
+.product h3 {
+  font-weight: 400;
+}
+
+.product-para {
+  font-weight: 400;
+  font-size: 1.3rem;
+  margin-top: 0.5rem;
+}
+
+.product-card h3 {
+  font-weight: 500;
+}
+
+.product-card-title {
+  margin-bottom: 0.5rem;
+}
+
+.product-card img {
+  border-radius: 50%;
+  object-fit: cover;
+  width: 80%;
+  /* height: 50%; */
+  padding: 0.5rem 0;
+  margin: 3rem 0 0;
+}
+
+.out-of-stock {
+  color: red;
+  margin-top: 0.5rem;
+}
+
+.second-p {
+  margin: 0 0 0.5rem;
+  font-weight: 600;
+}
+
+/* Media Queries  */
+
+/* Laptop */
+@media (max-width: 1366px) {
+  html {
+    font-size: 100%;
+  }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  html {
+    font-size: 100%;
+  }
+
+  /* .nav-branding {
+    background-color: #ffd700;
+    z-index: 100;
+  } */
+
+  .hamburger {
+    display: block;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 110px;
+    gap: 0;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+  }
+  .nav-item {
+    margin: 16px 0;
+  }
+
+  .nav-menu.active {
+    left: 0;
+  }
+
+  .navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* background-color: #ffd700; */
+    /* margin-right: 0; */
+    margin-top: -1rem;
+    margin-bottom: -5rem;
+  }
+
+  /* footer tablet */
+
+  .footer {
+    margin-top: 1rem;
+  }
+
+  /* Products tablet */
+  .product-section {
+    /* background-color: aquamarine; */
+    margin-top: 7rem;
+    padding-top: 1rem;
+  }
+
+  .row {
+    margin-top: 2rem;
+  }
+
+  .teaser p {
+    font-size: 1.2rem;
+  }
+
+  .perfume-card {
+    padding: 1rem 0;
+    margin-bottom: 2rem;
+  }
+
+  .perfume-card img {
+    margin-top: -1rem;
+  }
+}
+
+/* Phone */
+@media (max-width: 450px) {
+  html {
+    font-size: 100%;
+  }
+  .main-div {
+    flex-wrap: wrap;
+  }
+}
