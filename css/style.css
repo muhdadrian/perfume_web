@@ -392,9 +392,14 @@ footer .credit a {
     /* background-color: aqua; */
     margin-bottom: -15rem;
   }
+
   .teaser {
     /* background-color: #ffd700; */
-    margin-top: 17rem;
+    margin-top: 8rem;
+  }
+
+  .teaser-tagline {
+    padding-top: 11rem;
   }
 
   .teaser-para {
