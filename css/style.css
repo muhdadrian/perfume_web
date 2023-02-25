@@ -178,7 +178,7 @@ body {
 .main-section-text p {
   text-indent: 1.5rem;
   font-weight: 400;
-  line-height: 2.5;
+  line-height: 2;
   font-size: 1.5rem;
   text-align: justify;
   margin-left: 0;
@@ -279,6 +279,64 @@ body {
   text-indent: 1rem;
 }
 
+/* Products */
+
+.product-section {
+  text-align: center;
+  /* padding: 1rem 7% 1.4rem; */
+  /* background-color: burlywood; */
+  margin-top: 1rem;
+}
+
+.product-section h2 span {
+  color: var(--primary);
+}
+
+.product-row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-top: -1rem;
+}
+
+.product h3 {
+  font-weight: 400;
+}
+
+.product-para {
+  font-weight: 400;
+  font-size: 1.3rem;
+  margin-top: 0.5rem;
+}
+
+.product-card h3 {
+  font-weight: 500;
+}
+
+.product-card-title {
+  margin-bottom: 0.5rem;
+}
+
+.product-card img {
+  border-radius: 50%;
+  object-fit: cover;
+  width: 80%;
+  /* height: 50%; */
+  padding: 0.5rem 0;
+  margin: 3rem 0 0;
+}
+
+.out-of-stock {
+  color: red;
+  margin-top: 0.5rem;
+}
+
+.second-p {
+  margin: 0 0 0.5rem;
+  font-weight: 600;
+}
+
 /* Footer */
 
 footer {
@@ -327,6 +385,10 @@ footer .credit a {
   html {
     font-size: 100%;
     /* padding-top: 0; */
+  }
+  .teaser {
+    /* background-color: #ffd700; */
+    margin-top: 9rem;
   }
 }
 
@@ -392,6 +454,9 @@ footer .credit a {
     margin-right: 0;
   }
 
+  /* .nav-branding {
+    background-color: #ffd700;
+  } */
   /* main-section tablet */
 
   .main-section {
@@ -454,9 +519,12 @@ footer .credit a {
     padding-top: 1rem;
   }
 
+  /* .teaser-tagline {
+    background-color: aqua;
+  } */
+
   .row {
     margin-top: 2rem;
-    /* background-color: #ffd700; */
   }
 
   .teaser p {
@@ -513,6 +581,32 @@ footer .credit a {
   .about-para {
     font-weight: 400;
   }
+
+  /* Products tablet */
+  .product-section {
+    /* background-color: aquamarine; */
+    margin-top: 7rem;
+    padding-top: 1rem;
+  }
+
+  .row {
+    margin-top: 2rem;
+  }
+
+  .teaser p {
+    font-size: 1.2rem;
+  }
+
+  .perfume-card {
+    padding: 1rem 0;
+    margin-bottom: 2rem;
+  }
+
+  .perfume-card img {
+    margin-top: -1rem;
+  }
+
+  /* Footer tablet*/
 
   .footer {
     margin-top: 1rem;
@@ -703,6 +797,7 @@ footer .credit a {
     font-weight: 400;
   }
 
+  /* Footer phone*/
   .footer {
     margin-top: 1rem;
   }
