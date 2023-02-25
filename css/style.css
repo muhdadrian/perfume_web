@@ -119,10 +119,6 @@ body {
 
 /* main-section */
 
-.major-section {
-  display: flex;
-}
-
 .main-section {
   display: flex;
 
@@ -392,7 +388,7 @@ footer .credit a {
   }
   .teaser {
     /* background-color: #ffd700; */
-    margin-top: 5rem;
+    margin-top: 10rem;
   }
 }
 
@@ -461,12 +457,7 @@ footer .credit a {
   /* .nav-branding {
     background-color: #ffd700;
   } */
-
   /* main-section tablet */
-
-  .major-section {
-    flex-wrap: wrap;
-  }
 
   .main-section {
     flex-wrap: wrap;
@@ -524,14 +515,13 @@ footer .credit a {
 
   .teaser {
     /* background-color: aquamarine; */
-    margin-top: 9rem;
-    padding-top: -10rem;
-    /* flex-shrink: 1; */
+    /* margin-top: 1rem; */
+    padding-top: 7rem;
   }
 
   .teaser-tagline {
     /* background-color: aqua; */
-    margin-top: 3rem;
+    padding-top: 7rem;
   }
 
   .row {
@@ -690,7 +680,7 @@ footer .credit a {
   .main-section {
     flex-wrap: wrap;
 
-    /* background-color: #ffd700; */
+    background-color: #ffd700;
 
     /* background-color: rgb(15, 69, 86); */
     /* margin-top: 1.5rem; */
@@ -744,13 +734,17 @@ footer .credit a {
   /* teaser phone */
 
   .teaser {
-    /* background-color: aquamarine; */
-    margin-top: 7rem;
-    padding-top: 1rem;
+    background-color: aquamarine;
+    /* margin-top: 9rem; */
+    padding-top: -20rem;
   }
 
   .row {
     margin-top: 2rem;
+  }
+
+  .teaser-tagline {
+    padding-top: 0;
   }
 
   .teaser p {
@@ -764,6 +758,12 @@ footer .credit a {
 
   .perfume-card img {
     margin-top: -1rem;
+  }
+
+  /* product phone */
+  .tagline {
+    background-color: #ffd700;
+    margin-top: -4rem;
   }
 
   /* find us phone */
