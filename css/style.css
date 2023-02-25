@@ -383,17 +383,17 @@ footer .credit a {
 
 /* Laptop */
 
-@media (min-width: 1200px) {
+/* @media (min-width: 1200px) {
   html {
     font-size: 100%;
-    /* padding-top: 0; */
+  
   }
 
   .teaser-tagline {
     margin-top: -15em;
-    /* background-color: #ffd700; */
+   
   }
-}
+} */
 
 @media (max-width: 1366px) {
   html {
@@ -403,7 +403,7 @@ footer .credit a {
 
   .main-section {
     /* background-color: aqua; */
-    margin-bottom: -15rem;
+    margin-bottom: -22rem;
   }
 
   .teaser {
