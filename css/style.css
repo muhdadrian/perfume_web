@@ -213,6 +213,7 @@ body {
   font-weight: 400;
   font-size: 1.3rem;
   margin-top: 0.5rem;
+  margin-bottom: 2rem;
 }
 
 .perfume-card h3 {
@@ -386,9 +387,27 @@ footer .credit a {
     font-size: 100%;
     /* padding-top: 0; */
   }
+
+  .main-section {
+    /* background-color: aqua; */
+    margin-bottom: -15rem;
+  }
   .teaser {
     /* background-color: #ffd700; */
-    margin-top: 10rem;
+    margin-top: 17rem;
+  }
+
+  .teaser-para {
+    margin-bottom: 2rem;
+  }
+
+  /* .teaser-tagline {
+    padding-top: -10rem;
+    background-color: antiquewhite;
+  } */
+
+  .find-us {
+    margin-top: -3rem;
   }
 }
 
@@ -461,8 +480,8 @@ footer .credit a {
 
   .main-section {
     flex-wrap: wrap;
-
-    /* background-color: #ffd700; */
+    /* 
+    background-color: #ffd700; */
 
     /* background-color: rgb(15, 69, 86); */
     /* margin-top: 1.5rem; */
@@ -470,11 +489,16 @@ footer .credit a {
     height: 70%;
   }
 
+  .main-section-text {
+    /* background-color: #ffd700; */
+    margin-top: -8rem;
+  }
+
   .main-section-img {
     /* background-color: chartreuse; */
     padding: 0 0 1rem;
     margin-top: 0.7rem;
-    margin-bottom: -13rem;
+    margin-bottom: -17rem;
   }
 
   .first-photo {
@@ -488,6 +512,11 @@ footer .credit a {
     height: 70%;
     object-fit: contain;
     rotate: none;
+  }
+
+  .main-section-text {
+    /* background-color: aqua; */
+    padding-top: 7rem;
   }
 
   /* .main-section-text p {
@@ -515,8 +544,8 @@ footer .credit a {
 
   .teaser {
     /* background-color: aquamarine; */
-    /* margin-top: 1rem; */
-    padding-top: 7rem;
+    margin-top: 5rem;
+    /* padding-top: 0; */
   }
 
   .teaser-tagline {
@@ -594,24 +623,34 @@ footer .credit a {
     margin-top: 2rem;
   }
 
-  .teaser p {
-    font-size: 1.2rem;
-  }
+  /* teaser tablet */
 
-  .perfume-card {
-    padding: 1rem 0;
-    margin-bottom: 2rem;
+  .teaser {
+    /* background-color: aqua; */
+    margin-top: 13rem;
   }
+  /* 
+  .teaser-tagline {
+    background-color: #ffd700;
+    /* margin-top: 1rem; */
+}
+*/ .teaser p {
+  font-size: 1.2rem;
+}
 
-  .perfume-card img {
-    margin-top: -1rem;
-  }
+.perfume-card {
+  padding: 1rem 0;
+  margin-bottom: 2rem;
+}
 
-  /* Footer tablet*/
+.perfume-card img {
+  margin-top: -1rem;
+}
 
-  .footer {
-    margin-top: 1rem;
-  }
+/* Footer tablet*/
+
+.footer {
+  margin-top: 1rem;
 }
 
 /* Phone */
@@ -621,7 +660,7 @@ footer .credit a {
   }
 
   /* .kufi {
-    background-color: aqua;
+    margin-bottom: 0;
   } */
 
   .nav-branding {
@@ -680,12 +719,17 @@ footer .credit a {
   .main-section {
     flex-wrap: wrap;
 
-    background-color: #ffd700;
+    /* background-color: #ffd700; */
 
     /* background-color: rgb(15, 69, 86); */
     /* margin-top: 1.5rem; */
     width: 100%;
     height: 70%;
+  }
+
+  .main-section-text {
+    /* background-color: #ffd700; */
+    margin-top: -5rem;
   }
 
   .main-section-img {
@@ -734,9 +778,9 @@ footer .credit a {
   /* teaser phone */
 
   .teaser {
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     /* margin-top: 9rem; */
-    padding-top: -20rem;
+    padding-top: 5rem;
   }
 
   .row {
@@ -762,7 +806,7 @@ footer .credit a {
 
   /* product phone */
   .tagline {
-    background-color: #ffd700;
+    /* background-color: #ffd700; */
     margin-top: -4rem;
   }
 
@@ -812,4 +856,40 @@ footer .credit a {
   .footer {
     margin-top: 1rem;
   }
+}
+
+/* Phone Galaxy S8+*/
+@media (max-width: 360px) {
+  html {
+    font-size: 100%;
+  }
+
+  .nav-branding {
+    padding-top: 2rem;
+  }
+
+  .nav-menu {
+    /* background-color: #ffd700; */
+    margin-top: 1.5rem;
+  }
+
+  .main-section {
+    /* background-color: gold; */
+    margin-top: 3rem;
+  }
+
+  /* .main-section-img {
+    background-color: #ffd700;
+    padding-top: 0;
+  } */
+
+  .hamburger {
+    padding-top: 0.8rem;
+  }
+
+  .main-section-text {
+    margin-top: -5rem;
+  }
+
+  /* product */
 }
