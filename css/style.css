@@ -491,7 +491,11 @@ footer .credit a {
 
   .main-section-text {
     /* background-color: #ffd700; */
-    margin-top: -8rem;
+    margin-top: -12rem;
+  }
+
+  .main-section-text h1 {
+    padding-top: 5rem;
   }
 
   .main-section-img {
@@ -730,6 +734,10 @@ footer .credit a {
   .main-section-text {
     /* background-color: #ffd700; */
     margin-top: -5rem;
+  }
+
+  .main-section-text h1 {
+    padding-top: 0;
   }
 
   .main-section-img {
