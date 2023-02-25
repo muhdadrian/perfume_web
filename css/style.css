@@ -382,6 +382,19 @@ footer .credit a {
 /* Media Queries  */
 
 /* Laptop */
+
+@media (min-width: 1366px) {
+  html {
+    font-size: 100%;
+    /* padding-top: 0; */
+  }
+
+  .teaser-tagline {
+    margin-top: -15em;
+    /* background-color: #ffd700; */
+  }
+}
+
 @media (max-width: 1366px) {
   html {
     font-size: 100%;
@@ -399,7 +412,9 @@ footer .credit a {
   }
 
   .teaser-tagline {
-    padding-top: 11rem;
+    /* background-color: beige; */
+
+    padding-top: 10rem;
   }
 
   .teaser-para {
@@ -559,7 +574,7 @@ footer .credit a {
 
   .teaser-tagline {
     /* background-color: aqua; */
-    padding-top: 7rem;
+    padding-top: 5rem;
   }
 
   .row {
