@@ -383,7 +383,7 @@ footer .credit a {
 
 /* Laptop */
 
-@media (min-width: 1366px) {
+@media (min-width: 1200px) {
   html {
     font-size: 100%;
     /* padding-top: 0; */
