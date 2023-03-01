@@ -374,6 +374,11 @@ footer .credit a {
     margin-bottom: -25rem;
   }
 
+  /* latest */
+  .first-photo {
+    rotate: 5deg;
+  }
+
   .teaser {
     /* background-color: #ffd700; */
     margin-top: 1rem;
