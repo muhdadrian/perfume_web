@@ -115,7 +115,7 @@ body {
 
 .main-section {
   display: flex;
-  background-color: aqua;
+  /* background-color: aqua; */
 
   padding-bottom: 0;
   margin-bottom: -9rem;
@@ -163,7 +163,7 @@ body {
 
 .teaser {
   text-align: center;
-  background-color: burlywood;
+  /* background-color: burlywood; */
 }
 
 .teaser h2 span {
