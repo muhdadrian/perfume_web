@@ -132,7 +132,7 @@ body {
   object-fit: contain;
   padding-top: 2rem;
   /* background-color: antiquewhite; */
-  rotate: 5deg;
+  -webkit-transform: rotate(5deg);
 }
 
 .main-section-text {
