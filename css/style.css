@@ -61,12 +61,6 @@ body {
   color: var(--bg);
 }
 
-/* .navbar-menu {
-  display: flex;
-  justify-content: space-between;
-  gap: 60px;
-} */
-
 .nav-branding span {
   color: #ffd700;
 }
@@ -121,17 +115,10 @@ body {
 
 .main-section {
   display: flex;
-
-  /* flex-direction: row; */
-  /* flex: 1; */
-  /* margin-top: 1rem; */
-  /* background-color: aqua; */
+  background-color: aqua;
 
   padding-bottom: 0;
   margin-bottom: -9rem;
-
-  /* margin-right: -1rem; */
-  /* mix-blend-mode: difference; */
 }
 
 .main-section-img {
@@ -143,32 +130,19 @@ body {
   width: 100%;
   height: 70%;
   object-fit: contain;
-
   padding-top: 2rem;
-  /* padding-left: 2rem;  */
   /* background-color: antiquewhite; */
-  /* padding-top: 4rem;
-  padding-right: 5%;
-  padding-left: 10%; */
   rotate: 5deg;
 }
 
 .main-section-text {
-  /* margin-right: 0;
-  margin-left: -2rem;
-  margin-top: 0.5rem;
-  margin-bottom: 9rem; */
-  /* margin: 0.5rem 0 9rem -2rem; */
   padding: 0 5%;
-  /* width: 60%; */
-  /* height: auto; */
   /* background-color: blueviolet; */
 }
 
 .main-section-text h1 {
   font-weight: 500;
   text-align: center;
-  margin: 1rem 0;
   font-size: 2rem;
 }
 
@@ -189,8 +163,7 @@ body {
 
 .teaser {
   text-align: center;
-  /* padding: 1rem 7% 1.4rem; */
-  /* background-color: burlywood; */
+  background-color: burlywood;
 }
 
 .teaser h2 span {
@@ -236,7 +209,6 @@ body {
 .row-maps {
   display: flex;
   padding-top: 3.5rem;
-  /* flex: 50% 50%; */
 }
 
 .map {
@@ -265,7 +237,6 @@ body {
 /* about*/
 .about h2 {
   margin-top: -1rem;
-  /* padding-top: -2rem; */
 }
 
 .about h2 span {
@@ -284,7 +255,6 @@ body {
 
 .product-section {
   text-align: center;
-  /* padding: 1rem 7% 1.4rem; */
   /* background-color: burlywood; */
   margin-top: 1rem;
 }
@@ -338,6 +308,15 @@ body {
   font-weight: 600;
 }
 
+.slash {
+  text-decoration: line-through red;
+  margin: 0 0 0.5rem;
+}
+
+.discount {
+  font-weight: 600;
+}
+
 /* Footer */
 
 footer {
@@ -383,18 +362,6 @@ footer .credit a {
 
 /* Laptop */
 
-/* @media (min-width: 1200px) {
-  html {
-    font-size: 100%;
-  
-  }
-
-  .teaser-tagline {
-    margin-top: -15em;
-   
-  }
-} */
-
 @media (max-width: 1366px) {
   html {
     font-size: 100%;
@@ -413,7 +380,6 @@ footer .credit a {
 
   .teaser-tagline {
     /* background-color: beige; */
-
     padding-top: 27rem;
   }
 
@@ -437,10 +403,6 @@ footer .credit a {
     font-size: 100%;
     /* padding: 0 1rem; */
   }
-
-  /* .kufi {
-    background-color: aqua;
-  } */
 
   .nav-branding {
     /* background-color: #ffd700; */
@@ -500,11 +462,7 @@ footer .credit a {
 
   .main-section {
     flex-wrap: wrap;
-    /* 
-    background-color: #ffd700; */
-
-    /* background-color: rgb(15, 69, 86); */
-    /* margin-top: 1.5rem; */
+    /* background-color: #ffd700; */
     width: 100%;
     height: 70%;
   }
@@ -527,11 +485,6 @@ footer .credit a {
 
   .first-photo {
     /* background-color: antiquewhite; */
-    /* display: block; */
-    /* margin-top: -7rem; */
-    /* margin-left: -1rem; */
-    /* align-items: center; */
-    /* padding: 0 -1rem; */
     width: 100%;
     height: 70%;
     object-fit: contain;
@@ -543,22 +496,6 @@ footer .credit a {
     padding-top: 7rem;
   }
 
-  /* .main-section-text p {
-    width: 120%;
-    margin-top: -13rem;
-    padding-top: 1rem;
-    margin-right: 5%;
-    margin-left: 5%;
-    text-align: center;
-    padding-right: 0.3rem;
-    background-color: #ffd700;
-    padding: 0;
-  } */
-
-  /* .main-section-text h1 {
-    text-align: center;
-  } */
-
   .main-section-text p {
     font-weight: 400;
     font-size: 1.2rem;
@@ -568,9 +505,7 @@ footer .credit a {
 
   .teaser {
     /* background-color: aquamarine; */
-    /* margin-top: 5rem; */
     padding-top: 10rem;
-    /* padding-top: 0; */
   }
 
   .teaser-tagline {
@@ -614,7 +549,6 @@ footer .credit a {
   .row-maps {
     flex-wrap: wrap;
     /* background-color: aquamarine; */
-    /* margin-top: 1.5rem; */
     padding-top: 0.5rem;
   }
 
@@ -654,28 +588,25 @@ footer .credit a {
     /* background-color: aqua; */
     margin-top: 13rem;
   }
-  /* 
-  .teaser-tagline {
-    background-color: #ffd700;
-    /* margin-top: 1rem; */
-}
-*/ .teaser p {
-  font-size: 1.2rem;
-}
 
-.perfume-card {
-  padding: 1rem 0;
-  margin-bottom: 2rem;
-}
+  .teaser p {
+    font-size: 1.2rem;
+  }
 
-.perfume-card img {
-  margin-top: -1rem;
-}
+  .perfume-card {
+    padding: 1rem 0;
+    margin-bottom: 2rem;
+  }
 
-/* Footer tablet*/
+  .perfume-card img {
+    margin-top: -1rem;
+  }
 
-.footer {
-  margin-top: 1rem;
+  /* Footer tablet*/
+
+  .footer {
+    margin-top: 1rem;
+  }
 }
 
 /* Phone */
@@ -683,10 +614,6 @@ footer .credit a {
   html {
     font-size: 100%;
   }
-
-  /* .kufi {
-    margin-bottom: 0;
-  } */
 
   .nav-branding {
     /* background-color: #ffd700; */
@@ -743,11 +670,7 @@ footer .credit a {
 
   .main-section {
     flex-wrap: wrap;
-
     /* background-color: #ffd700; */
-
-    /* background-color: rgb(15, 69, 86); */
-    /* margin-top: 1.5rem; */
     width: 100%;
     height: 70%;
   }
@@ -770,11 +693,6 @@ footer .credit a {
 
   .first-photo {
     /* background-color: antiquewhite; */
-    /* display: block; */
-    /* margin-top: -7rem; */
-    /* margin-left: -1rem; */
-    /* align-items: center; */
-    /* padding: 0 -1rem; */
     width: 100%;
     height: 70%;
     object-fit: contain;
@@ -782,22 +700,6 @@ footer .credit a {
     margin-top: 1rem;
     padding-bottom: 1.5rem;
   }
-
-  /* .main-section-text p {
-    width: 120%;
-    margin-top: -13rem;
-    padding-top: 1rem;
-    margin-right: 5%;
-    margin-left: 5%;
-    text-align: center;
-    padding-right: 0.3rem;
-    background-color: #ffd700;
-    padding: 0;
-  } */
-  /* 
-  .main-section-text h1 {
-    padd
-  } */
 
   .main-section-text p {
     font-weight: 400;
