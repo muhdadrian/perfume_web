@@ -205,6 +205,11 @@ body {
   margin: 3rem 0 0;
 }
 
+.more {
+  width: 50%;
+  border: 1px solid rgb(229, 225, 225);
+}
+
 /* maps */
 .row-maps {
   display: flex;
