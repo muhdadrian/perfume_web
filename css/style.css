@@ -310,6 +310,7 @@ body {
 
 .slash {
   text-decoration: line-through red;
+  -webkit-text-decoration: line-through red;
   margin: 0 0 0.5rem;
 }
 
