@@ -575,6 +575,7 @@ footer .credit a {
     justify-content: space-around;
     /* background-color: #ffd700; */
     margin-top: 0;
+    margin-left: 0;
     margin-right: 0;
   }
 
@@ -823,14 +824,14 @@ footer .credit a {
     z-index: 100;
   }
 
-  .navbar {
+  /* .navbar {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    /* background-color: #ffd700; */
+
     margin-top: 0;
     margin-right: 0;
-  }
+  } */
 
   /* main-section phone */
 
