@@ -531,6 +531,7 @@ footer .credit a {
     font-size: 5rem;
     /* background-color: #ffd700; */
     margin-bottom: -5.1rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.75);
   }
 
   .hamburger {
