@@ -60,6 +60,7 @@ body {
   font-style: italic;
   text-decoration: none;
   color: var(--bg);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.75);
 }
 
 .nav-branding span {
