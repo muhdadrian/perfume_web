@@ -68,7 +68,7 @@ body {
 
 .navbar ul li {
   display: inline-block;
-  margin: 0 1.5rem;
+  margin: 0 2.5rem;
   padding: 1rem 0;
   position: relative;
   list-style: none;
@@ -172,6 +172,8 @@ body {
   margin-top: 20rem;
   /* padding-top: 5rem; */
   padding-bottom: 0;
+  margin-right: 2%;
+  margin-left: 2%;
   margin-bottom: -9rem;
 }
 
@@ -371,11 +373,11 @@ body {
   font-weight: 600;
 }
 
-.slash {
+/* .slash {
   text-decoration: line-through red;
   -webkit-text-decoration: line-through red;
   margin: 0 0 0.5rem;
-}
+} */
 
 .discount {
   font-weight: 600;
@@ -1100,6 +1102,89 @@ footer .credit a {
   .main-section-two-text {
     /* background-color: #ffd700; */
     margin-top: 5rem;
+  }
+}
+
+/* Breakpoint */
+
+@media (min-width: 540px) and (max-width: 696px) {
+  html {
+    font-size: 100%;
+  }
+  .nav-branding {
+    font-size: 3.5rem;
+  }
+}
+
+@media (min-width: 451px) and (max-width: 528px) {
+  html {
+    font-size: 100%;
+  }
+  .nav-branding {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 415px) and (max-width: 437px) {
+  html {
+    font-size: 100%;
+  }
+  .nav-branding {
+    font-size: 2.3rem;
+  }
+}
+
+@media (min-width: 394px) and (max-width: 399px) {
+  html {
+    font-size: 100%;
+  }
+  .nav-branding {
+    font-size: 2.3rem;
+  }
+}
+
+@media (min-width: 376px) and (max-width: 386px) {
+  html {
+    font-size: 100%;
+  }
+  .nav-branding {
+    font-size: 2.3rem;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 373px) {
+  html {
+    font-size: 100%;
+  }
+  .nav-branding {
+    font-size: 2.3rem;
+  }
+}
+
+@media (max-width: 347px) {
+  html {
+    font-size: 100%;
+  }
+  .nav-branding {
+    font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 334px) {
+  html {
+    font-size: 100%;
+  }
+  .nav-branding {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 308px) {
+  html {
+    font-size: 100%;
+  }
+  .nav-branding {
+    font-size: 1.7rem;
   }
 }
 
