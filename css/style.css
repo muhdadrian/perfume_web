@@ -374,11 +374,11 @@ body {
   font-weight: 600;
 }
 
-.slash {
-  /* text-decoration: line-through red; */
+/* .slash {
+  text-decoration: line-through red;
   -webkit-text-decoration: line-through red;
   margin: 0 0 0.5rem;
-}
+} */
 
 .discount {
   font-weight: 600;
