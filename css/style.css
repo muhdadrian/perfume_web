@@ -375,13 +375,14 @@ body {
 }
 
 .slash {
-  text-decoration: line-through red;
+  /* text-decoration: line-through red; */
   -webkit-text-decoration: line-through red;
   margin: 0 0 0.5rem;
 }
 
 .discount {
   font-weight: 600;
+  opacity: 0;
 }
 
 /* Footer */
